@@ -11,3 +11,7 @@ Paper trading only — no real money, no broker connection.
 - `paperbot.py` — daily run: updates `ledger.json`, writes `briefs/brief_YYYY-MM-DD.md`
 
 Daily run: `python3 paperbot.py` (then move the brief into `briefs/` and commit).
+
+## Grok Bot (Solana memecoin paper desk)
+
+See `grokbot/README.md`. Run locally: `python3 -m grokbot.desk --check`, then `./grokbot/run_overnight.sh 10`.
